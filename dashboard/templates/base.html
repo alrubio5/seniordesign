@@ -17,7 +17,7 @@
 <body>
   <div id="wrapper">
     <header id="header">
-      <div id="logo"><img src="{% static 'iot_logo.jpg' %}" alt=""/></div>
+      <div id="logo"><img src="{% static 'iot_logo2.jpg' %}" alt=""/></div>
       <div id="topbanner"><img src="{% static 'RedBanner.png' %}" width="800" height="75" alt=""/></div>
     </header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -56,7 +56,6 @@
       {{ plot_div }}
       {% endautoescape %}
       {% block update %}
-      <p>Page last updated: {{ last_updated|date:'D d F Y'}}</p>
       {% endblock update %}
     </section>
     <footer id="footer">Copywrite &copy; 2021 MinLab</footer>
